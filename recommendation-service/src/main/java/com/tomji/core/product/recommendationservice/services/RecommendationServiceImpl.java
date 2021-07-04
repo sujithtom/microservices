@@ -31,7 +31,7 @@ public class RecommendationServiceImpl implements RecommendationService {
 
         if (productId == 113) {
             LOG.debug("No recommendations found for productId: {}", productId);
-            return  new ArrayList<>();
+            return new ArrayList<>();
         }
 
         List<Recommendation> list = new ArrayList<>();
