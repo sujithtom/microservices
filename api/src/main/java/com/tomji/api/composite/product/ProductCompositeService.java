@@ -1,8 +1,10 @@
 package com.tomji.api.composite.product;
 
+import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
+@Api(description = "REST API for composite product information.")
 public interface ProductCompositeService {
 
     /**
